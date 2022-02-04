@@ -1,0 +1,9 @@
+{
+  "name": "node-fullApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GlaudistonNeto/node-fullApi.git",
+  "author": "GlaudistonNeto <glaudistonson@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
