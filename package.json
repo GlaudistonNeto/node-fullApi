@@ -2,18 +2,20 @@
   "name": "nodeapi",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "dev": "nodemon"
-  },
   "repository": "https://github.com/GlaudistonNeto/nodeAPI.git",
   "author": "gneto <glaudistonson@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mysql2": "^2.2.5",
-    "nodemon": "^2.0.12",
     "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
