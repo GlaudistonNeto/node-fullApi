@@ -3,7 +3,7 @@ const router = express.Router();
 const { Posts } = require('../models');
 
 router.get('/', (req, res) => {
-  res.json('Post router');
+  res.json('Post route');
 });
 
 router.post('/', async (req, res) => {
