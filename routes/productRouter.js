@@ -11,7 +11,7 @@ router.get('/published', productController.getPublishedProduct);
 
 router.get('/:id', productController.getOneProduct);
 
-router.put('/:id', productController.updateProduct);
+router.patch('/:id', productController.updateProduct);
 
 router.delete('/:id', productController.deleteProduct);
 

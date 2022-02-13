@@ -12,12 +12,12 @@ var corsOptions = {
 app.use(cors(corsOptions));
 
 // router
-const router = require('../routes/productRouter');
-app.use('/api/products', router)
-
 app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
+
+const router = require('../routes/productRouter');
+app.use('/api/products', router)
 
 // testing api
 app.get('/', (req, res) => {
