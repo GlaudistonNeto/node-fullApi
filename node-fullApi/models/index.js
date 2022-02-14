@@ -41,7 +41,7 @@ sequelize.authenticate()
   // 1 to many relation
 
   db.products.hasMany(db.reviews, {
-    foreignKey: 'user_id',
+    foreignKey: 'product_id',
     as: 'review'
   });
 
